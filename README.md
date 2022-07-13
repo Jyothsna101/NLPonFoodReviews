@@ -1,4 +1,4 @@
-# NLPonFoodReviews
+# NLP on FoodReviews
 
 #Introduction:
 
@@ -34,6 +34,6 @@ We have the following based on the LDA algorithm's clusters:
 
 We would determine the LDA model's complexity and evaluate its effectiveness. A probability model's complexity is a statistical indicator of how effectively it can forecast a sample. You estimate the LDA model when applied to LDA for a particular value of k. Compare your documents' real topic mixes or word distribution to the theoretical word distributions provided by the topics. This model's perplexity is estimated to be 1058.6359087208268. 
 
-Conclusion:  
+#Conclusion:  
 
 To analyze the text for "Amazon Fine Food Reviews" and pinpoint the most critical and significant terms to comprehend the general perception of the public about the fine foods from Amazon. First, we cleaned up the data by pulling out the nouns and removing stop words, derivate words, and numerals. After that, we produced ten topics and the LDA model to put topic modeling techniques into practice. We looked at all the topics' keywords and concluded that the reviews left by consumers are mostly about cookies and chocolates and drinks like tea, coffee, juice, and soup. 
