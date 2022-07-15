@@ -1,10 +1,10 @@
 # NLP on FoodReviews
 
-#Introduction:
+## Introduction:
 
 The primary goal of this project is to analyze the text for "Amazon Fine Food Reviews" and pinpoint the most practical terms to comprehend the public's general perception of the fine foods from Amazon. We would use Latent Dirichlet Allocation (LDA), the most popular topic modeling technique, to find a theme throughout reviews and uncover hidden subjects. 
 
-DataCleaning:
+## DataCleaning:
 
 The dataset has ten variables, of which five are numerical and 568454 observations. Each observation contains a ProductID, UserID, Profile Name, Score, Summary, and Text. The distinctive identifiers for products and users, respectively, are ProductID and UserID. The total number of users who stated whether they found the review to be useful or not is known as the Helpfulness Denominator. At the same time, the Helpfulness Numerator represents the total number of users who felt the study to be helpful. The rating provided ranges from 1 to 5. The frequency of score 5 is the highest, as seen here, and the other scores are all at the same level. The first 1500 observations would be filtered out and designated as the training set if their scores are shown in below image.
 
@@ -14,7 +14,7 @@ Preparing the data is the first and most crucial step in subject modeling. To do
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/52540495/178850763-e415f985-7d5b-461f-97a0-5fbf642f388d.png">
 
-#Analysis: 
+## Analysis: 
 
 Following text cleaning, we created a bag of words containing the words and their corresponding frequencies using a count vectorizer. There are 3744 words total, and the frequency table is shown below to give us an idea. 
 
@@ -34,6 +34,6 @@ We have the following based on the LDA algorithm's clusters:
 
 We would determine the LDA model's complexity and evaluate its effectiveness. A probability model's complexity is a statistical indicator of how effectively it can forecast a sample. You estimate the LDA model when applied to LDA for a particular value of k. Compare your documents' real topic mixes or word distribution to the theoretical word distributions provided by the topics. This model's perplexity is estimated to be 1058.6359087208268. 
 
-#Conclusion:  
+## Conclusion:  
 
 To analyze the text for "Amazon Fine Food Reviews" and pinpoint the most critical and significant terms to comprehend the general perception of the public about the fine foods from Amazon. First, we cleaned up the data by pulling out the nouns and removing stop words, derivate words, and numerals. After that, we produced ten topics and the LDA model to put topic modeling techniques into practice. We looked at all the topics' keywords and concluded that the reviews left by consumers are mostly about cookies and chocolates and drinks like tea, coffee, juice, and soup. 
