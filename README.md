@@ -1,8 +1,25 @@
-# NLP on FoodReviews
+# NLP on AmazonFineFoodReviews
 
-## Introduction:
+## Dataset: Amazon Fine Food Reviews
 
-The primary goal of this project is to analyze the text for "Amazon Fine Food Reviews" and pinpoint the most practical terms to comprehend the public's general perception of the fine foods from Amazon. We would use Latent Dirichlet Allocation (LDA), the most popular topic modeling technique, to find a theme throughout reviews and uncover hidden subjects. 
+## About Dataset: The reviews of exquisite meals from Amazon make up this dataset. All 500,000 reviews up to October 2012 are included in the statistics, which cover a period of more than ten years. Reviews include information about the product and the user, ratings, and a plain text review. Reviews from all other Amazon categories are also included.
+
+## Contents: 
+
+  1. Reviews.csv: Pulled from the corresponding SQLite table named Reviews in database.sqlite
+  2. database.sqlite: Contains the table 'Reviews'
+  
+## Data Includes: 
+
+    Reviews from Oct 1999 - Oct 2012
+    568,454 reviews
+    256,059 users
+    74,258 products
+    260 users with > 50 reviews
+    
+## Data Exploration:
+
+<img width="229" alt="Screen Shot 2022-07-15 at 11 33 26 AM" src="https://user-images.githubusercontent.com/52540495/179256839-d0e77895-ccba-4e0f-9a4d-872ec7250983.png">
 
 ## DataCleaning:
 
