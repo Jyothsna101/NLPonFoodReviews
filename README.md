@@ -30,7 +30,7 @@ When performing topic modeling, the ideal situation is to reduce the complexity 
 
 We have the following based on the LDA algorithm's clusters: 
 
-<img width="836" alt="Screen Shot 2022-07-13 at 6 57 00 PM" src="https://user-images.githubusercontent.com/52540495/178850947-a68aafd5-ad29-4396-90e0-1450af42f3c3.png">
+<img width="830" alt="Screen Shot 2022-07-15 at 11 17 27 AM" src="https://user-images.githubusercontent.com/52540495/179253742-5a2fc4fc-0307-4be9-bd3c-c6f63f6efc01.png">
 
 We would determine the LDA model's complexity and evaluate its effectiveness. A probability model's complexity is a statistical indicator of how effectively it can forecast a sample. You estimate the LDA model when applied to LDA for a particular value of k. Compare your documents' real topic mixes or word distribution to the theoretical word distributions provided by the topics. This model's perplexity is estimated to be 1058.6359087208268. 
 
