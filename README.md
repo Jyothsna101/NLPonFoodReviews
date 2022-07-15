@@ -2,7 +2,9 @@
 
 ## Dataset: Amazon Fine Food Reviews
 
-## About Dataset: The reviews of exquisite meals from Amazon make up this dataset. All 500,000 reviews up to October 2012 are included in the statistics, which cover a period of more than ten years. Reviews include information about the product and the user, ratings, and a plain text review. Reviews from all other Amazon categories are also included.
+## About Dataset: 
+
+The reviews of exquisite meals from Amazon make up this dataset. All 500,000 reviews up to October 2012 are included in the statistics, which cover a period of more than ten years. Reviews include information about the product and the user, ratings, and a plain text review. Reviews from all other Amazon categories are also included.
 
 ## Contents: 
 
@@ -21,7 +23,7 @@
 
 <img width="229" alt="Screen Shot 2022-07-15 at 11 33 26 AM" src="https://user-images.githubusercontent.com/52540495/179256839-d0e77895-ccba-4e0f-9a4d-872ec7250983.png">
 
-## DataCleaning:
+## Data Cleaning:
 
 The dataset has ten variables, of which five are numerical and 568454 observations. Each observation contains a ProductID, UserID, Profile Name, Score, Summary, and Text. The distinctive identifiers for products and users, respectively, are ProductID and UserID. The total number of users who stated whether they found the review to be useful or not is known as the Helpfulness Denominator. At the same time, the Helpfulness Numerator represents the total number of users who felt the study to be helpful. The rating provided ranges from 1 to 5. The frequency of score 5 is the highest, as seen here, and the other scores are all at the same level. The first 1500 observations would be filtered out and designated as the training set if their scores are shown in below image.
 
