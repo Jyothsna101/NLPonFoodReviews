@@ -29,7 +29,7 @@ The dataset has ten variables, of which five are numerical and 568454 observatio
 
 <img width="398" alt="image" src="https://user-images.githubusercontent.com/52540495/178850727-7b6e77bc-2f14-4482-b8ff-556c0771689d.png">
 
-Preparing the data is the first and most crucial step in subject modeling. To do this, we will remove all nouns from the reviews and then develop topic models using the LDA approach utilizing only nouns. Then we can all the standard familiar English stop words from the nltk package. After looking for the words that occur the most frequently, we additionally add our own stop words. Doing so would make the text smaller, and the training would take less time. The text is then lemmatized to reveal a word's base word. Call lemma is the word's root. Doing this would remove all word derivatives, leaving only the base term. We finally removed all numbers from the text as part of the data cleaning process. We now have a dataset ready for topic modeling, as shown below.
+Preparing the data is the first and most crucial step in subject modeling. To do this, we will remove all nouns from the reviews and then develop topic models using the LDA approach utilizing only nouns. Then we can collect all the standard familiar English stop words from the nltk package. After looking for the words that occur the most frequently, we additionally add our own stop words. Doing so would make the text smaller, and the training would take less time. The text is then lemmatized to reveal a word's base word. Call lemma is the word's root. Doing this would remove all word derivatives, leaving only the base term. We finally removed all numbers from the text as part of the data cleaning process. We now have a dataset ready for topic modeling, as shown below.
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/52540495/178850763-e415f985-7d5b-461f-97a0-5fbf642f388d.png">
 
@@ -39,7 +39,7 @@ Following text cleaning, we created a bag of words containing the words and thei
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/52540495/178850837-f7050a12-c3a8-4b9c-84b3-435cf9c54529.png">
 
-We now develop an LDA model to cluster the data into 10ten distinct segments and generalize it to various themes. 
+We now develop an LDA model to cluster the data into 10 distinct segments and generalize it to various themes. 
 The following model parameters were used for the LDA: 
 
   1.	Total topics: 10 
